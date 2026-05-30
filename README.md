@@ -1,24 +1,46 @@
-#To‑Do List App
-A clean, easy-to-use task manager for the browser. Add, edit, prioritize, and complete tasks with a minimal UI and local persistence. Perfect for learning frontend fundamentals or as a starter project to extend with user accounts, sync, or a backend.
+# To-Do List App
 
-Features:
-Add, edit, and delete tasks
-Mark tasks complete / uncomplete
-Persistent storage in the browser (localStorage)
-Responsive layout for mobile and desktop
-Search and simple filtering (completed / active)
+A simple, responsive, and interactive To-Do List web application built using HTML, CSS, and JavaScript. This app helps users manage their daily tasks efficiently with features like adding, editing, deleting, and completing tasks.
 
-Tech stack:
-HTML, CSS, JavaScript (vanilla) — no build step required
+## Features
 
-Install & run:
-Clone the repo and open the app in your browser:
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-# open index.html in a browser or serve with a simple server
+- Add new tasks easily
+- Edit existing tasks
+- Delete tasks from the list
+- Mark tasks as completed
+- Track progress with a progress bar and completed task counter
+- Store tasks in browser local storage
+- Show empty-state image when no tasks are available
+- Celebrate full task completion with a confetti effect
+- Responsive design for different screen sizes
 
-Usage:
-Type a task into the input, press Enter or click Add. Click a task to toggle completion, use edit/delete controls to manage tasks.
+## Tech Stack
 
-Contributing:
-Bug reports and pull requests welcome. If you want features like sync, auth, or tests, open an issue first to discuss.
+- HTML5
+- CSS3
+- JavaScript
+- Local Storage API
+- Font Awesome
+- tsParticles Confetti
+
+## How It Works
+
+1. Enter a task in the input field.
+2. Click the add button or press Enter to add the task.
+3. Use the checkbox to mark a task as completed.
+4. Use the edit button to update a task.
+5. Use the delete button to remove a task.
+6. The progress bar updates automatically based on completed tasks.
+7. All tasks are saved in local storage, so they remain after page refresh.
+
+## Project Purpose
+
+This project was created to practice frontend web development concepts such as DOM manipulation, event handling, local storage, conditional rendering, and responsive UI design.
+
+## Future Improvements
+
+- Add task categories
+- Add due dates and reminders
+- Add filters for completed and pending tasks
+- Add dark/light mode toggle
+- Add drag-and-drop task reordering
